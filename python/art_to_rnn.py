@@ -113,7 +113,7 @@ if __name__ == '__main__':
     #plt.show()
     
     # join data together so network can loop through each element and develop clusters 
-    train = [train_sin, train_rand, train_sin, train_rand, train_sin])
+    train = [train_sin, train_rand, train_sin, train_rand, train_sin]
     
     samples = train 
     network = ART(100,10,rho=0.9)
